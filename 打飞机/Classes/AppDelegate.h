@@ -10,6 +10,7 @@
 #define  _APP_DELEGATE_H_
 
 #include "CCApplication.h"
+#include "Defines.h"
 
 /**
 @brief    The cocos2d Application.
@@ -40,6 +41,8 @@ public:
     @param  the pointer of the application instance
     */
     virtual void applicationWillEnterForeground();
+    
+    void flush();
 };
 
 #endif // _APP_DELEGATE_H_
